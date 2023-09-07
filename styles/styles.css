@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  color: rgb(44, 41, 44);
+  background-color: white;
+}
+
+#main-header {
+  background-color: #14bdac;
+  color: rgb(44, 41, 44);
+  padding: 1.5rem 5%;
+  text-align: center;
+}
+
+.btn {
+  font: inherit;
+  font-size: 1.12rem;
+  margin: 0.5rem;
+  padding: 0.4rem 1rem;
+  background-color: #14bdac;
+  border: 1px solid #14bdac;
+  color: rgb(44, 41, 44);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-alt {
+  background-color: transparent;
+  border: transparent;
+  color: #0d8e81;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.btn-alt:hover {
+  transform: scale(1.1);
+  background-color: #81dfd5b5;
+}
+

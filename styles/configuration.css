@@ -1,0 +1,73 @@
+#configure {
+  text-align: center;
+}
+
+#configure h2 {
+  margin: 0.5rem 0;
+}
+
+.form-control {
+  margin: 0.5rem 0;
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.form-control input {
+  font: inherit;
+  border: 1px solid rgb(204, 204, 204);
+  width: 15rem;
+  padding: 0.35rem;
+}
+
+.error input {
+  border-color: rgb(136, 2, 2);
+  color: rgb(136, 2, 2);
+  background-color: rgb(243, 181, 181);
+}
+
+#game-configuration {
+  width: 90%;
+  max-width: 35rem;
+  margin: 3rem auto;
+  text-align: center;
+}
+
+#game-configuration ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+#game-configuration li {
+  margin: 1.5rem;
+  padding: 1rem;
+  width: 50%;
+  background-color: #14bdac4a;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+#game-configuration h2 {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+#game-configuration h3 {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+  color: #0d8e81;
+}
+
+.player-symbol {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #03433c;
+  margin: 1rem 0.5rem;
+}
+
